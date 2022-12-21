@@ -158,9 +158,8 @@ body {
 }
 .stand {
   position: absolute;
-  align-items: center;
   top: 124px;
-  left: 27px;
+  left: calc(50% - 165px);
   width: 335px;
   height: 1212px;
 }
@@ -172,6 +171,7 @@ body {
 }
 .daftar-stand {
   top: 34px;
+  left: calc(50% - 40px);
   font-weight: 500;
 }
 .canteen {
@@ -192,7 +192,7 @@ body {
 .group-div {
   position: fixed;
   top: 54px;
-  left: calc(50% - 50px);
+  left: calc(50% - 80px);
   width: 181px;
   height: 31px;
   font-size: 24px;
