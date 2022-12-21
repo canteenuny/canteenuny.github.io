@@ -166,10 +166,8 @@ body {
 }
 .canteen,
 .daftar-stand {
-  position: absolute;
   letter-spacing: -0.28px;
   display: inline-block;
-  box-align: center;
 }
 .daftar-stand {
   top: 34px;
@@ -191,8 +189,6 @@ body {
   object-fit: cover;
 }
 .group-div {
-  position: absolute;
-  box-align: center;
   top: 54px;
   left: 105px;
   width: 181px;
