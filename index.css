@@ -172,11 +172,11 @@ body {
 }
 .daftar-stand {
   top: 34px;
-  text-align: center;
   font-weight: 500;
 }
 .canteen {
   top: 0;
+  left: 0;
   align-items: center;
   width: 122px;
   height: 31px;
@@ -190,16 +190,14 @@ body {
   object-fit: cover;
 }
 .group-div {
-  position: absolute;
+  position: fixed;
   top: 54px;
+  left: calc(50% - 50px);
   width: 181px;
   height: 31px;
   font-size: 24px;
   color: var(--main);
   font-family: var(--font-poppins);
-}
-.branding {
-  align-content: center;
 }
 .title-bar {
   position: fixed;
