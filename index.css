@@ -302,7 +302,7 @@ body {
   height: 70px;
 }
 .tab-bar {
-  position: fixed;
+  position: sticky;
   top: 663px;
   left: 0;
   border-radius: var(--br-md) var(--br-md) 0 0;
