@@ -192,12 +192,14 @@ body {
 .group-div {
   position: absolute;
   top: 54px;
-  align-items: center;
   width: 181px;
   height: 31px;
   font-size: 24px;
   color: var(--main);
   font-family: var(--font-poppins);
+}
+.branding {
+  align-items: center;
 }
 .title-bar {
   position: fixed;
