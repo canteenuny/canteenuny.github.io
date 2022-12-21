@@ -208,6 +208,7 @@ body {
   height: 113px;
   overflow: hidden;
   text-align: center;
+  align-items: center;
   font-size: var(--body-dark-size);
   color: var(--black);
   font-family: var(--subhead-dark);
