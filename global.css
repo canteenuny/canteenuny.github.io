@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --font-mulish: Mulish;
+  --font-poppins: Poppins;
+  --subhead-dark: "SF Pro Display";
+  --body-dark: "SF Pro Text";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --body-dark-size: 16px;
+  --subhead-dark-size: 20px;
+
+  /* Colors */
+  --background: #f4f4f4;
+  --color-gray-200: #868686;
+  --grey: #7b7b7b;
+  --color-gray-400: #010f07;
+  --white: #fff;
+  --main: #e7524a;
+  --black: #000;
+
+  /* border radiuses */
+  --br-sm: 10px;
+  --br-md: 24px;
+}
