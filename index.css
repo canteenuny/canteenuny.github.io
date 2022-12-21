@@ -303,7 +303,7 @@ body {
 }
 .tab-bar {
   position: fixed;
-  top: 665px;
+  bottom: 0px;
   left: 0;
   border-radius: var(--br-md) var(--br-md) 0 0;
   background-color: var(--white);
