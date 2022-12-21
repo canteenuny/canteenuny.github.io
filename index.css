@@ -172,12 +172,12 @@ body {
 }
 .daftar-stand {
   top: 34px;
-  left: 153px;
+  text-align: center;
   font-weight: 500;
 }
 .canteen {
   top: 0;
-  left: 0;
+  align-items: center;
   width: 122px;
   height: 31px;
 }
@@ -192,7 +192,7 @@ body {
 .group-div {
   position: absolute;
   top: 54px;
-  left: 105px;
+  align-items: center;
   width: 181px;
   height: 31px;
   font-size: 24px;
