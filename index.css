@@ -37,6 +37,7 @@ body {
 .type {
   position: absolute;
   left: 0;
+  cursor: pointer;
 }
 .type {
   width: 40%;
@@ -62,6 +63,7 @@ body {
 .type2 {
   position: absolute;
   left: 0;
+  cursor: pointer;
 }
 .grid-makanan1 {
   top: 924px;
@@ -107,6 +109,7 @@ body {
 .type6 {
   position: absolute;
   left: 0;
+  cursor: pointer;
 }
 .grid-makanan5 {
   top: 308px;
