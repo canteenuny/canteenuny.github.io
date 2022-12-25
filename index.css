@@ -7,7 +7,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: var(--br-sm);
+  border-radius: var(--br-xs);
   width: 160px;
 }
 .bg {
@@ -44,9 +44,9 @@ body {
   top: calc(50% + 120px);
   right: 60%;
   height: 24px;
-  font-size: var(--body-dark-size);
-  color: var(--color-gray-200);
-  font-family: var(--body-dark);
+  font-size: var(--body-light-size);
+  color: var(--body-text);
+  font-family: var(--body-light);
 }
 .foodgrid1 {
   top: 0;
@@ -75,9 +75,9 @@ body {
   top: calc(50% + 120px);
   right: 43.13%;
   height: 24px;
-  font-size: var(--body-dark-size);
-  color: var(--color-gray-200);
-  font-family: var(--body-dark);
+  font-size: var(--body-light-size);
+  color: var(--body-text);
+  font-family: var(--body-light);
 }
 .grid-makanan2,
 .grid-makanan3,
@@ -100,9 +100,9 @@ body {
   top: calc(50% + 120px);
   right: 37.5%;
   height: 24px;
-  font-size: var(--body-dark-size);
-  color: var(--color-gray-200);
-  font-family: var(--body-dark);
+  font-size: var(--body-light-size);
+  color: var(--body-text);
+  font-family: var(--body-light);
 }
 .grid-makanan5,
 .type5,
@@ -121,9 +121,9 @@ body {
   top: calc(50% + 120px);
   right: 13.75%;
   height: 24px;
-  font-size: var(--body-dark-size);
-  color: var(--color-gray-200);
-  font-family: var(--body-dark);
+  font-size: var(--body-light-size);
+  color: var(--body-text);
+  font-family: var(--body-light);
 }
 .grid-makanan6 {
   position: absolute;
@@ -150,9 +150,9 @@ body {
   top: calc(50% + 120px);
   right: 40%;
   height: 24px;
-  font-size: var(--body-dark-size);
-  color: var(--color-gray-200);
-  font-family: var(--body-dark);
+  font-size: var(--body-light-size);
+  color: var(--body-text);
+  font-family: var(--body-light);
 }
 .grid-makanan7 {
   top: 0;
@@ -198,7 +198,7 @@ body {
   left: calc(50% - 90px);
   width: 181px;
   height: 31px;
-  font-size: 24px;
+  font-size: var(--h3-dark-size);
   color: var(--main);
   font-family: var(--font-poppins);
 }
@@ -212,7 +212,7 @@ body {
   overflow: hidden;
   text-align: center;
   align-items: center;
-  font-size: var(--body-dark-size);
+  font-size: var(--body-light-size);
   color: var(--black);
   font-family: var(--subhead-dark);
 }
@@ -228,7 +228,7 @@ body {
   position: absolute;
   top: calc(50% + 3.5px);
   left: calc(50% - 28.85px);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
   display: inline-block;
   font-family: var(--font-mulish);
   color: var(--main);
@@ -258,7 +258,7 @@ body {
   position: absolute;
   top: calc(50% + 3px);
   left: calc(50% - 28.77px);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
   display: inline-block;
   font-family: var(--font-mulish);
   color: var(--grey);
@@ -288,7 +288,7 @@ body {
   position: absolute;
   top: calc(50% + 3px);
   left: calc(50% - 18.93px);
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-base);
   display: inline-block;
   font-family: var(--font-mulish);
   color: var(--grey);
@@ -310,7 +310,7 @@ body {
   position: fixed;
   bottom: 0px;
   left: 0;
-  border-radius: var(--br-md) var(--br-md) 0 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
   background-color: var(--white);
   box-shadow: 0-2px 12px rgba(180, 180, 180, 0.25);
   width: 390px;
@@ -336,6 +336,6 @@ body {
   overflow: hidden;
   text-align: left;
   font-size: var(--subhead-dark-size);
-  color: var(--color-gray-400);
+  color: var(--main-color);
   font-family: var(--subhead-dark);
 }
